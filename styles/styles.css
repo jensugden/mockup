@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica";
+  max-width: 60rem;
+}
+
+h1 {
+  height: 9rem;
+  background-color: rgb(65, 165, 195);
+  padding-left: 9rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border: none;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+h2 {
+  font-family: "Helvetica Light Italic", sans-serif;
+  font-style: italic;
+  font-size: 12pt;
+  padding-left: 6.5rem;
+  margin: 0;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  height: 3rem;
+  width: 59rem;
+  background-color: rgb(240, 240, 240);
+  padding-left: 6.5rem;
+  border: none;
+  margin-bottom: 2rem;
+  float: left;
+}
+
+h4 {
+  color: rgb(65, 165, 195);
+  clear: right;
+}
+
+section {
+  margin: 0rem 9rem 3rem;
+  flex-direction: column;
+}
+
+blockquote {
+  font-size: 1.25rem;
+  color: rgb(65, 165, 195)
+}
+
+aside {
+  float: right;
+  flex-wrap: wrap;
+}
+
+footer {
+  clear: right;
+}
+.white-text {
+  color: white;
+}
+
+.blue-text {
+  color: rgb(65, 165, 195);
+}
+
+.italic {
+  font-style: italic;
+}
+.float {
+  float: left;
+}
+.relative1 {
+  position: relative;
+  z-index: -1;
+}
+.absolute1 {
+  position: absolute;
+  top: 6rem;
+  left: 3rem;
+  z-index: 1;
+}
+.absolute2 {
+  position: absolute;
+  z-index: 2;
+}
+.footer {
+  text-align: center;
+  color: white;
+}
+#main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
