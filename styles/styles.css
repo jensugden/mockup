@@ -44,8 +44,10 @@ h4 {
 }
 
 section {
-  margin: 0rem 9rem 3rem;
-  flex-direction: column;
+  float: left;
+  width: 50%;
+  background: none;
+  margin-left: 9rem;
 }
 
 blockquote {
@@ -55,14 +57,33 @@ blockquote {
 
 aside {
   float: right;
+  width: 30%;
   flex-wrap: wrap;
 }
 
 footer {
-  clear: right;
+  height: 18rem;
+  background-color: black;
+  padding-top: 3rem;
+  padding-left: 9rem;
+  margin-top: 1.5rem;
+  align-items: center;
+  color: white;
+  position: relative;
+  text-align: center;
 }
+
+img {
+  position: relative
+  z-index: -1;
+}
+
 .white-text {
   color: white;
+}
+
+.black-text {
+  color: black;
 }
 
 .blue-text {
@@ -72,9 +93,11 @@ footer {
 .italic {
   font-style: italic;
 }
+
 .float {
   float: left;
 }
+
 .relative1 {
   position: relative;
   z-index: -1;
@@ -85,28 +108,23 @@ footer {
   left: 3rem;
   z-index: 1;
 }
+
 .absolute2 {
   position: absolute;
+  text-align: center;
   z-index: 2;
 }
-.footer {
-  text-align: center;
-  color: white;
-}
-#main {
-  max-width: 600px;
-  margin: 0 auto;
-}
+
 a:link {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:visited {
   text-decoration: none;
 }
 
-.clearfix::after{
+.clearfix::after {
   content:"";
   display: block;
   clear: both;
