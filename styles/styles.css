@@ -7,12 +7,22 @@
 h1 {
   height: 9rem;
   background-color: rgb(65, 165, 195);
+  color: white;
   padding-left: 9rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   border: none;
   margin: 0;
   font-family: "Helvetica", sans-serif;
+}
+
+ul {
+  float: left;
+}
+
+li {
+  list-style-type: none;
+  float: left;
 }
 
 h2 {
@@ -24,17 +34,17 @@ h2 {
   color: white;
 }
 
-ul {
-  list-style-type: none;
-}
-
 nav {
   height: 3rem;
   width: 59rem;
   background-color: rgb(240, 240, 240);
-  padding-left: 6.5rem;
+  padding: 0em 0em 0em 6.5rem;
   border: none;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  float: left;
+}
+
+div {
   float: left;
 }
 
@@ -65,24 +75,28 @@ footer {
   height: 18rem;
   background-color: black;
   padding-top: 3rem;
-  padding-left: 9rem;
   margin-top: 1.5rem;
   align-items: center;
   color: white;
   position: relative;
   text-align: center;
+  z-index: -1;
 }
 
 img {
-  position: relative
+  position: relative;
   z-index: -1;
+}
+
+.after-div {
+  clear: left;
 }
 
 .white-text {
   color: white;
 }
 
-.black-text {
+.dark {
   color: black;
 }
 
@@ -102,6 +116,7 @@ img {
   position: relative;
   z-index: -1;
 }
+
 .absolute1 {
   position: absolute;
   top: 6rem;
@@ -113,6 +128,16 @@ img {
   position: absolute;
   text-align: center;
   z-index: 2;
+}
+
+.absolute3 {
+  position: absolute;
+  text-align: center;
+  z-index: 3;
+}
+
+.after-paragraph {
+  clear: left;
 }
 
 a:link {
