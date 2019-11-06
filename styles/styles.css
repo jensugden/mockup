@@ -17,12 +17,10 @@ h1 {
 }
 
 ul {
-  float: left;
 }
 
 li {
   list-style-type: none;
-  float: left;
 }
 
 h2 {
@@ -142,7 +140,6 @@ img {
 
 a:link {
   text-decoration: none;
-  color: white;
 }
 
 a:visited {
