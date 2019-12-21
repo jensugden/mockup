@@ -147,6 +147,10 @@ a[href^="#main"] {
   clear: left;
 }
 
+a {
+  color: white;
+}
+
 a:link {
   text-decoration: underline;
 }
